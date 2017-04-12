@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="PersistantClass" table="data">  
+        <id name="locid" type="int" column ="locid">  
+            <generator class="assigned"></generator>  
+        </id>  
+                
+        
+                
+    </class>  
+  
+
+</hibernate-mapping>
